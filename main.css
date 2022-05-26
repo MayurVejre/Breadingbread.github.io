@@ -1,0 +1,627 @@
+.navbar {
+  background: linear-gradient(to right, black, rgb(2, 2, 121));
+
+  padding-right: 25px;
+}
+.navbar-brand {
+  color: white;
+  position: relative;
+
+  font-size: xx-large;
+  font-weight: 300;
+  font-family: "Poppins";
+  padding-left: 0;
+  position: absolute;
+}
+.navbar-brand:hover {
+  color: blue;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-icon {
+  height: 50px;
+  width: 125px;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+/*Banner*/
+.hero-bg-img {
+  background-image: url("https://res.cloudinary.com/dw8gdozpq/image/upload/v1653191832/Group_39665_jjltyz.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  width: 100%;
+  height: 700px;
+}
+
+.hero-heading1 {
+  padding-top: 150px;
+  padding-left: 100px;
+}
+.heading-1 {
+  color: white;
+  font-size: 75px;
+  font-weight: 800;
+  font-family: "Poppins";
+}
+.hero-heading2 {
+  padding-left: 100px;
+  padding-top: 5px;
+}
+.heading-2 {
+  color: white;
+  font-size: 75px;
+  font-weight: 800;
+  font-family: "Poppins";
+}
+.heading-3 {
+  color: white;
+  font-size: xx-large;
+  padding-top: 10px;
+}
+.button-1 {
+  margin-top: 10px;
+  border-color: blue;
+  height: 45px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(62, 2, 118);
+}
+.main-section {
+  background: linear-gradient(to right, blueviolet, black);
+}
+.main-section-div {
+  padding-left: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.arrow-1 {
+  margin-top: 35px;
+  background-color: gainsboro;
+  height: 30px;
+  width: 25px;
+  padding: 2px;
+  border-radius: 100%;
+}
+.img-1 {
+  padding-left: 100px;
+}
+.img-2 {
+  margin-top: 35px;
+}
+.img-3,
+.img-4,
+.img-5 {
+  margin-top: 30px;
+  padding-left: 90px;
+}
+.arrow-2 {
+  margin-left: 150px;
+  margin-top: 30px;
+  background-color: gainsboro;
+  height: 30px;
+  width: 25px;
+  padding: 2px;
+  border-radius: 100px;
+}
+/*Explore Artworks*/
+
+.artwork-title {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+.artwork {
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.artworks {
+  margin-left: 60px;
+}
+.card {
+  padding: 7px;
+  background-color: rgb(62, 2, 118);
+  border-color: blue;
+}
+.card-title {
+  text-align: center;
+  color: white;
+}
+.artwork-arrow-1 {
+  margin-top: 150px;
+  background-color: gainsboro;
+  height: 30px;
+  width: 25px;
+  padding: 2px;
+  border-radius: 100%;
+}
+.hero-artwork {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Email-Row {
+  padding-left: 100px;
+  margin: auto;
+}
+.artwork-arrow-2 {
+  margin-top: 150px;
+  margin-left: 100px;
+  background-color: gainsboro;
+  height: 30px;
+  width: 25px;
+  padding: 2px;
+  border-radius: 100%;
+}
+/*why nft as reward*/
+.Reward-Section {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.reward-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.reward-card {
+  width: 500px;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.xj {
+  display: flex;
+  justify-content: center;
+}
+.xk {
+  display: flex;
+  height: 110px;
+  width: 250px;
+}
+.Rewards {
+  display: flex;
+  justify-content: center;
+}
+.Reward {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.card-content {
+  color: white;
+}
+/*why breading bread?*/
+.Breading {
+  padding-top: 50px;
+}
+.Breading-title {
+  text-align: right;
+  padding-right: 50px;
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+  font-family: "Poppins";
+}
+.Breadings {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.Breading-row {
+  width: 100%;
+}
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Breading-img-div {
+  width: 100%;
+}
+
+.Breading-img {
+  height: 280px;
+  width: 65%;
+  margin-left: 50px;
+  padding-left: 120px;
+}
+.Breading-body {
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.Breading-heading {
+  margin-left: 150px;
+  color: white;
+  font-size: 40px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+}
+.Breading-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 150px;
+  color: white;
+  font-size: 17px;
+  font-family: "Poppins";
+}
+.Email-content {
+  padding-left: 70px;
+}
+.bf {
+  color: white;
+  font-weight: 800;
+  padding-left: 125px;
+  font-size: 45px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.bg {
+  padding-left: 125px;
+  padding-top: 10px;
+  color: white;
+  font-size: 18px;
+}
+.Input {
+  width: 400px;
+  background-color: rgb(62, 2, 118);
+  border: 50px;
+  border-color: white;
+  border-radius: 25px;
+}
+.Input-Space {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(0, 55, 0);
+  opacity: 60%;
+  border-radius: 100px;
+  border-color: green;
+}
+.button-2 {
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  border-radius: 100px;
+  height: 40px;
+  width: 150px;
+  border-color: blue;
+  color: white;
+  background: linear-gradient(to right, rgb(190, 120, 255), rgb(151, 151, 151));
+}
+/**/
+.bk {
+  color: white;
+}
+.Footer {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+
+  padding-bottom: 20px;
+}
+.Footer-img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-imgs {
+  height: 25px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .main-section-div {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-heading1,.hero-heading2{
+    margin-left: 100px;
+  }
+  .Reward-Section {
+    display: flex;
+    justify-content: center;
+  }
+  .reward-title{
+    margin-left: 100px;
+  }
+  .Email-Section {
+    margin-left: 170px;
+  }
+  .Breading {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 12px;
+  }
+  .Breading-img-div {
+    margin-left: 90px;
+  }
+  .Breading-title {
+    margin-right: 50px;
+  }
+  .Breading-col {
+    margin-left: 100px;
+  }
+  .reward-title {
+    padding-left: 40px;
+  }
+.navbar-nav{
+  margin-right: 100px;
+}
+.navbar-brand{
+  margin-left: 150px;
+}
+  .Breading-img {
+    height: 250px;
+    width: 80%;
+  }
+  .Reward-Section {
+    display: block;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pa {
+    display: none;
+  }
+  .Breading-img {
+    margin-left: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 3px;
+    height: 130px;
+    width: 90%;
+  }
+  .img-3 {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .navbar {
+    padding: 0;
+    height: 80px;
+  }
+  .hero-heading1,.hero-heading2{
+    margin-left: 50px;
+  }
+  .navbar-brand {
+    position: relative;
+    margin-left: 5px;
+  }
+
+  .navbar-toggler-icon {
+    display: flex;
+    justify-content: end;
+    border-color: white;
+    border: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-right: 100px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: rgb(2, 2, 122);
+    padding-top: 10px;
+  }
+  .navbar-nav li {
+    margin: 10px auto;
+  }
+
+  .nav-icon {
+    height: 35px;
+    width: 80px;
+  }
+  /*Banner Mobile*/
+  .hero-bg-img {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .hero-heading1 {
+    padding-top: 70px;
+    padding-left: 50px;
+  }
+  .heading-1 {
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: "Poppins";
+  }
+
+  .heading-2 {
+    font-size: 30px;
+    font-weight: 100px;
+  }
+  .hero-heading2 {
+    padding-left: 50px;
+  }
+  .heading-3 {
+    font-size: 20px;
+  }
+  .button-1 {
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+  }
+  .main-section-div {
+    padding-left: 0px;
+  }
+  .arrow-1 {
+    margin-top: 20px;
+    margin-top: 30px;
+    background-color: gainsboro;
+    height: 30px;
+    width: 25px;
+    padding: 2px;
+    border-radius: 100%;
+  }
+  .reward-card {
+    width: 500px;
+    border-radius: 20px;
+    height: 220px;
+  }
+  .img-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: none;
+  }
+  .img-2 {
+    padding-left: 5px;
+    margin-top: 5px;
+    display: none;
+  }
+  .img-3,
+  .img-4 {
+    padding-left: 20px;
+  }
+  .img-5 {
+    display: none;
+  }
+  .arrow-2 {
+    margin-left: 20px;
+  }
+  /*Explore Artworks*/
+  .artwork-title {
+    margin: 10px;
+    font-size: 30px;
+  }
+  .artwork {
+    padding-left: 1px;
+    display: block;
+    justify-content: center;
+  }
+  .artworks {
+    margin-left: 1px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    padding: 5px;
+  }
+  .artwork-arrow-1 {
+    display: none;
+  }
+  .artwork-arrow-2 {
+    display: none;
+  }
+  /*why nft as reward?*/
+  .Reward-Section {
+    padding-left: 20px;
+  }
+  .reward-title {
+    margin: 20px;
+    font-size: 50px;
+  }
+  .Rewards {
+    display: block;
+    justify-content: center;
+  }
+  .Reward {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .card-content {
+    font-size: 15px;
+  }
+  /*why breading bread?*/
+  .Breading {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Breading-title {
+    margin-right: 5px;
+    text-align: right;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Poppins";
+  }
+  .Breadings {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .reverse {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .Breading-row {
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .Breading-row {
+    display: block;
+  }
+  .Breading-heading {
+    margin-left: 1px;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 2px;
+  }
+  .Breading-content {
+    margin-left: 0px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .Email-content {
+    padding-left: 0px;
+  }
+
+  .Breading-img-div {
+    margin-right: 100px;
+  }
+  .Breading-col {
+    display: flex;
+  }
+  .Email-Input {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .Email-Row {
+    padding-left: 0px;
+    display: block;
+  }
+  .Breading-body {
+    width: 100%;
+    margin-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .Breading-img {
+    margin-left: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-right: 3px;
+    height: 270px;
+    width: 90%;
+  }
+}
