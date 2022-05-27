@@ -176,7 +176,7 @@
 }
 .reward-title {
   color: white;
-  padding-left: 76px;
+  padding-left: 16px;
   font-size: 60px;
   font-weight: 600;
   font-family: "Poppins";
@@ -215,7 +215,7 @@
 }
 .Breading-title {
   text-align: right;
-  padding-right: 200px;
+  padding-right: 50px;
   color: white;
   font-size: 70px;
   font-weight: 800;
@@ -348,6 +348,8 @@
   }
   .reward-title{
     margin-left: 100px;
+    padding-left: 40px;
+    
   }
   .Email-Section {
     margin-left: 170px;
@@ -366,9 +368,7 @@
   .Breading-col {
     margin-left: 100px;
   }
-  .reward-title {
-    padding-left: 40px;
-  }
+  
 .navbar-nav{
   margin-right: 100px;
 }
@@ -400,6 +400,10 @@
   }
   .navbar-brand {
     font-size: 20px;
+  }
+  .navbar-toggler-icon {
+    
+    margin-right: 50px;
   }
 }
 
@@ -460,6 +464,8 @@
   .heading-2 {
     font-size: 30px;
     font-weight: 100px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
   }
   .hero-heading2 {
     padding-left: 50px;
